@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+.contact-table {
+  margin-top: 50px;
+  display: flex;
+}
+.contact-element {
+  width: 200px;
+  border: 1px solid #949494;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  min-height: 50px;
+  max-height: 64px;
+  font-size: 24px;
+  align-items: center;
+}
+.contact-element input {
+  width: 20px;
+  background: none;
+  color: #000;
+  border: none;
+}
+.contact-desc {
+  display: none;
+  flex-direction: column;
+  min-height: 64px;
+  border: 1px solid #949494;
+}
+.active {
+  display: flex;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid black;
+}

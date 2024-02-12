@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>contact-list</title>
+  </head>
+  <body>
+    <h1>Contact List on JS</h1>
+
+    <div class="inputs-block">
+      <input class="name" type="text" placeholder="Name" />
+      <input class="surname" type="text" placeholder="Surname" />
+      <input
+        class="telephone"
+        type="tel:+78121111111"
+        placeholder="Phone +x xxx xxx xx xx"
+      />
+      <input onclick="addAllInfoUser()" type="submit" value="add" />
+      <input onclick="clearListItems()" type="submit" value="Clear List" />
+      <input type="submit" value="Search" />
+    </div>
+
+    <div class="contact-table">
+      <div class="contact-block">
+        <div class="contact-element" id="element-a">
+          A
+          <input class="counter-a" ></input>
+        </div>
+
+        <div class="contact-desc" id="element--a"></div>
+
+        <div class="contact-element" id="element-b">
+          B
+          <input class="counter-b"></input>
+        </div>
+
+        <div class="contact-desc" id="element--b"></div>
+
+        <div class="contact-element" id="element-c">
+          C
+          <input class="counter-c"></input>
+        </div>
+
+        <div class="contact-desc" id="element--c"></div>
+
+        <div class="contact-element" id="element-d">
+          D
+          <input class="counter-d"></input>
+        </div>
+
+        <div class="contact-desc" id="element--d"></div>
+
+        <div class="contact-element" id="element-e">
+          E
+          <input class="counter-e"></input>
+        </div>
+
+        <div class="contact-desc" id="element--e"></div>
+
+        <div class="contact-element" id="element-f">
+          F
+          <input class="counter-f"></input>
+        </div>
+
+        <div class="contact-desc" id="element--f"></div>
+
+        <div class="contact-element" id="element-g">
+          G
+          <input class="counter-g"></input>
+        </div>
+
+        <div class="contact-desc" id="element--g"></div>
+
+        <div class="contact-element" id="element-h">
+          H
+          <input class="counter-h"></input>
+        </div>
+
+        <div class="contact-desc" id="element--h"></div>
+
+        <div class="contact-element" id="element-i">
+          I
+          <input class="counter-i"></input>
+        </div>
+
+        <div class="contact-desc" id="element--i"></div>
+
+        <div class="contact-element" id="element-j">
+          J
+          <input class="counter-j"></input>
+        </div>
+
+        <div class="contact-desc" id="element--j"></div>
+
+        <div class="contact-element" id="element-k">
+          K
+          <input class="counter-k"></input>
+        </div>
+
+        <div class="contact-desc" id="element--k"></div>
+
+        <div class="contact-element" id="element-l">
+          L
+          <input class="counter-l"></input>
+        </div>
+
+        <div class="contact-desc" id="element--l"></div>
+
+        <div class="contact-element" id="element-m">
+          M
+          <input class="counter-m"></input>
+        </div>
+
+        <div class="contact-desc" id="element--m"></div>
+      </div>
+      <div class="contact-block">
+        <div class="contact-element" id="element-n">
+          N
+          <input class="counter-n"></input>
+        </div>
+
+        <div class="contact-desc" id="element--n"></div>
+
+        <div class="contact-element" id="element-o">
+          O
+          <input class="counter-o"></input>
+        </div>
+
+        <div class="contact-desc" id="element--o"></div>
+
+        <div class="contact-element" id="element-p">
+          P
+          <input class="counter-p"></input>
+        </div>
+
+        <div class="contact-desc" id="element--p"></div>
+
+        <div class="contact-element" id="element-q">
+          Q
+          <input class="counter-q"></input>
+        </div>
+
+        <div class="contact-desc" id="element--q"></div>
+
+        <div class="contact-element contact-element-active" id="element-r">
+          R
+          <input class="counter-r"></input>
+        </div>
+
+        <div class="contact-desc" id="element--r"></div>
+
+        <div class="contact-element" id="element-s">
+          S
+          <input class="counter-s"></input>
+        </div>
+
+        <div class="contact-desc" id="element--s"></div>
+
+        <div class="contact-element" id="element-t">
+          T
+          <input class="counter-t"></input>
+        </div>
+
+        <div class="contact-desc" id="element--t"></div>
+
+        <div class="contact-element" id="element-u">
+          U
+          <input class="counter-u"></input>
+        </div>
+
+        <div class="contact-desc" id="element--u"></div>
+
+        <div class="contact-element" id="element-v">
+          V
+          <input class="counter-v"></input>
+        </div>
+
+        <div class="contact-desc" id="element--v"></div>
+
+        <div class="contact-element" id="element-w">
+          W
+          <input class="counter-w"></input>
+        </div>
+
+        <div class="contact-desc" id="element--w"></div>
+
+        <div class="contact-element" id="element-x">
+          X
+          <input class="counter-x"></input>
+        </div>
+
+        <div class="contact-desc" id="element--x"></div>
+
+        <div class="contact-element" id="element-y">
+          Y
+          <input class="counter-y"></input>
+        </div>
+
+        <div class="contact-desc" id="element--y"></div>
+
+        <div class="contact-element" id="element-z">
+          Z
+          <input class="counter-z"></input>
+        </div>
+
+        <div class="contact-desc" id="element--z"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
